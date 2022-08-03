@@ -1,0 +1,35 @@
+.signInForm__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+  .signInForm__content {
+    height: 100%;
+  }
+
+  .signInForm__label {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .signInForm__btn {
+    background-color: black;
+    border-color: black;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .signInForm__indicateSignUp {
+    margin-top: 10px;
+
+    & a {
+      color: gray;
+
+      &:hover {
+        color: black;
+      }
+    }
+
+  }
+}
